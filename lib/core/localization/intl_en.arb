@@ -1,0 +1,12 @@
+{
+  "login": "Login",
+  "email": "Email",
+  "username": "Username",
+  "password": "Password",
+  "register": "Register",
+  "forgotPassword": "Forgot passoword?",
+  "signOut": "Sign out",
+  "failed": "Error!",
+  "succeed": "Well done!",
+  "loremIpsum": "Lorem ipsum dolor sit amet, consectetur"
+}

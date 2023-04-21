@@ -1,0 +1,19 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  # plugins:
+  #   - dart_code_metrics
+  exclude:
+    - "**/build/**"
+    - "android/**"
+    - "**/example/**"
+    # Ignore generated files
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - "**/*.gr.dart"
+    - "**/*.mock.dart"
+    - "**/*.config.dart"
+    - "**/*.module.dart"
+
+linter:
+  rules:
