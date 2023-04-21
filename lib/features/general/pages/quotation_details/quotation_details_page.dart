@@ -55,13 +55,12 @@ class _QuotationDetailsPageState extends State<QuotationDetailsPage> {
         mainAxisSize: MainAxisSize.min,
         children: [
           Text(
-            'Cannot fetch ${widget.symbol} :c\nRetry after 1 minute '
-            'or generate new api token',
+            Strings.of(context)!.cannotFetch,
             textAlign: TextAlign.center,
           ),
           const SpacerV(value: Dimens.space16),
           ButtonText(
-            title: 'Retry now',
+            title: Strings.of(context)!.refreshNow,
             onPressed: () => store.fetch(widget.symbol),
           ),
         ],
@@ -70,14 +69,17 @@ class _QuotationDetailsPageState extends State<QuotationDetailsPage> {
   Widget buildSuccessState() => Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
-          _buildTextRow('name', store.quotation!.name),
-          const SpacerV(value: Dimens.space16),
-          _buildTextRow('description', store.quotation!.description),
-          const SpacerV(value: Dimens.space16),
-          _buildTextRow('symbol', store.quotation!.symbol),
+          _buildTextRow(Strings.of(context)!.name, store.quotation!.name),
           const SpacerV(value: Dimens.space16),
           _buildTextRow(
-              'capitalization', '${store.quotation!.capitalization}\$'),
+              Strings.of(context)!.description, store.quotation!.description),
+          const SpacerV(value: Dimens.space16),
+          _buildTextRow(Strings.of(context)!.symbol, store.quotation!.symbol),
+          const SpacerV(value: Dimens.space16),
+          _buildTextRow(
+            Strings.of(context)!.capitalization,
+            '${store.quotation!.capitalization}\$',
+          ),
         ],
       );
 

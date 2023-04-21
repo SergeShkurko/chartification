@@ -1,12 +1,15 @@
 {
-  "login": "Login",
-  "email": "Email",
-  "username": "Username",
-  "password": "Password",
-  "register": "Register",
-  "forgotPassword": "Forgot passoword?",
-  "signOut": "Sign out",
   "failed": "Error!",
   "succeed": "Well done!",
+
+  "cannotFetch": "Cannot fetch data :c\nRetry after 1 minute or generate new api token",
+  "cannotFetchQuotation": "Cannot fech quotation: {quotation}",
+  "refreshNow": "refresh now",
+
+  "name": "Name",
+  "description": "Description",
+  "symbol": "Symbol",
+  "capitalization": "Capitalization",
+
   "loremIpsum": "Lorem ipsum dolor sit amet, consectetur"
 }

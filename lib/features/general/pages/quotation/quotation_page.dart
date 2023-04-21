@@ -80,14 +80,13 @@ class _QuotationPageState extends State<QuotationPage> {
   Widget buildErrorState() => Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          const Text(
-            'Cannot fetch data :c\nRetry after 1 minute '
-            'or generate new api token',
+          Text(
+            Strings.of(context)!.cannotFetch,
             textAlign: TextAlign.center,
           ),
           const SpacerV(value: Dimens.space16),
           ButtonText(
-            title: 'Retry now',
+            title: Strings.of(context)!.refreshNow,
             onPressed: () => store.fetch(symbols),
           ),
         ],

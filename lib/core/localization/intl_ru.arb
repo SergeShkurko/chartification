@@ -1,12 +1,15 @@
 {
-  "login": "Войти",
-  "email": "Email",
-  "username": "Имя пользователя",
-  "password": "Пароль",
-  "register": "Регистрация",
-  "forgotPassword": "Забыли пароль?",
-  "signOut": "Выход",
   "failed": "Ошибка!",
   "succeed": "Успех!",
+
+  "cannotFetch": "Не удалось загрузить :c\nПопробуйте через минуту или сгенерируйте новый api токен",
+  "cannotFetchQuotation": "Не удается загрузить котировку: {quotation}",
+  "refreshNow": "Перезагрузить",
+
+  "name": "Название",
+  "description": "Описание",
+  "symbol": "Котировка",
+  "capitalization": "Капитализация",
+
   "loremIpsum": "Чтобы добиться успеха в жизни нужно только... :)"
 }

@@ -8,7 +8,6 @@ import 'package:provider/provider.dart';
 enum Routes {
   root("/"),
   details(":symbol"),
-  // details("/quotation/:symbol"),
   splashScreen("/splashscreen"),
   ;
 

@@ -93,48 +93,6 @@ abstract class Strings {
     Locale('ru')
   ];
 
-  /// No description provided for @login.
-  ///
-  /// In en, this message translates to:
-  /// **'Login'**
-  String get login;
-
-  /// No description provided for @email.
-  ///
-  /// In en, this message translates to:
-  /// **'Email'**
-  String get email;
-
-  /// No description provided for @username.
-  ///
-  /// In en, this message translates to:
-  /// **'Username'**
-  String get username;
-
-  /// No description provided for @password.
-  ///
-  /// In en, this message translates to:
-  /// **'Password'**
-  String get password;
-
-  /// No description provided for @register.
-  ///
-  /// In en, this message translates to:
-  /// **'Register'**
-  String get register;
-
-  /// No description provided for @forgotPassword.
-  ///
-  /// In en, this message translates to:
-  /// **'Forgot passoword?'**
-  String get forgotPassword;
-
-  /// No description provided for @signOut.
-  ///
-  /// In en, this message translates to:
-  /// **'Sign out'**
-  String get signOut;
-
   /// No description provided for @failed.
   ///
   /// In en, this message translates to:
@@ -146,6 +104,48 @@ abstract class Strings {
   /// In en, this message translates to:
   /// **'Well done!'**
   String get succeed;
+
+  /// No description provided for @cannotFetch.
+  ///
+  /// In en, this message translates to:
+  /// **'Cannot fetch data :c\nRetry after 1 minute or generate new api token'**
+  String get cannotFetch;
+
+  /// No description provided for @cannotFetchQuotation.
+  ///
+  /// In en, this message translates to:
+  /// **'Cannot fech quotation: {quotation}'**
+  String cannotFetchQuotation(Object quotation);
+
+  /// No description provided for @refreshNow.
+  ///
+  /// In en, this message translates to:
+  /// **'refresh now'**
+  String get refreshNow;
+
+  /// No description provided for @name.
+  ///
+  /// In en, this message translates to:
+  /// **'Name'**
+  String get name;
+
+  /// No description provided for @description.
+  ///
+  /// In en, this message translates to:
+  /// **'Description'**
+  String get description;
+
+  /// No description provided for @symbol.
+  ///
+  /// In en, this message translates to:
+  /// **'Symbol'**
+  String get symbol;
+
+  /// No description provided for @capitalization.
+  ///
+  /// In en, this message translates to:
+  /// **'Capitalization'**
+  String get capitalization;
 
   /// No description provided for @loremIpsum.
   ///
